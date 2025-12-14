@@ -229,7 +229,7 @@ if (isset($_SESSION['user_id']) &&
       <span class="menu-icon" onclick="toggleMenu()">&#9776;</span>
 
       <ul class="nav-menu">
-        <li><a href="index.php">Library</a></li>
+        <li><a href="admin.php">Library</a></li>
         <li><a href="add-book.php">Add Book</a></li>
         <li><a href="add-category.php">Add Category</a></li>
         <li><a href="add-author.php">Add Author</a></li>

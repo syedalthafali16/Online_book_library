@@ -39,14 +39,6 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
         </div>
     </nav>
 
-    <!-- Search Form -->
-    <form action="search.php" method="get" class="search-form">
-        <input type="text" name="key" placeholder="Search Book...">
-        <button type="submit">
-            <img src="img/search.png" width="20" alt="Search">
-        </button>
-    </form>
-
     <!-- Alerts -->
     <?php if (isset($_GET['error'])): ?>
         <div class="alert alert-danger"><?= htmlspecialchars($_GET['error']) ?></div>

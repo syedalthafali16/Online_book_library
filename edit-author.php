@@ -195,7 +195,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
       <a class="navbar-brand" href="admin.php">Admin</a>
       <span class="menu-icon" onclick="toggleMenu()">☰</span>
       <ul class="nav-menu" id="navMenu">
-        <li><a href="index.php">Library</a></li>
+        <li><a href="admin.php">Library</a></li>
         <li><a href="add-book.php">Add Book</a></li>
         <li><a href="add-category.php">Add Category</a></li>
         <li><a href="add-author.php">Add Author</a></li>

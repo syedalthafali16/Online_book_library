@@ -31,7 +31,7 @@ $books = search_books($conn, $key);
 <!-- Navigation -->
 <nav class="navbar">
   <div class="navbar-container">
-    <a href="index.php" class="navbar-brand">Online Book Library</a>
+    <a href="#" class="navbar-brand">Online Book Library</a>
     
     <input type="checkbox" id="menu-toggle">
     <label for="menu-toggle" class="menu-icon">&#9776;</label>

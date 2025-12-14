@@ -65,19 +65,26 @@ if (!$book) {
   </style>
 </head>
 <body>
+  <div style="text-align: center; margin-top: 20px;">
+      <h3>Payment Successful!</h3>
+      <script type="module" src="https://unpkg.com/@dotlottie/player-component@2.7.12/dist/dotlottie-player.mjs"></script>
+      <dotlottie-player 
+          src="https://lottie.host/1c2bf291-d9dd-435c-b42e-5d52006413e0/0VvVIZpN5C.lottie" 
+          background="transparent" 
+          speed="1" 
+          style="width: 500px; height: 300px" 
+          loop 
+          autoplay>
+      </dotlottie-player>
+    </div>
 
-<h2>Payment Successful!</h2>
-<p>Thank you! You can now download your book:</p>
+  <h3><?= htmlspecialchars($book['title']) ?></h3>
+  <p><strong>Author:</strong> <?= htmlspecialchars($book['author_name']) ?></p>
 
-<h3><?= htmlspecialchars($book['title']) ?></h3>
-<p><strong>Author:</strong> <?= htmlspecialchars($book['author_name']) ?></p>
-
-<div class="center-container">
-  <a class="btn" href="uploads/files/<?= htmlspecialchars($book['file']) ?>" download="<?= htmlspecialchars($book['title']) ?>">
-    Download Now
-  </a>
-</div>
-
-
+  <div class="center-container">
+    <a class="btn" href="uploads/files/<?= htmlspecialchars($book['file']) ?>" download="<?= htmlspecialchars($book['title']) ?>">
+      Download Now
+    </a>
+  </div>
 </body>
 </html>
