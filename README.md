@@ -49,3 +49,6 @@ Admins have full control over the content stored in the system.
 
 ---
 
+## 👨‍💻
+**Syed Althaf Ali**  
+Aspiring Full Stack Developer
