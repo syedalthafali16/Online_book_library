@@ -1,15 +1,15 @@
 <h1 align="center">Hi 👋, I'm Syed althaf</h1>
 
-# 📚 Online Book Store & Digital Library
+# 📚 Online Book Store
 
-A full-stack **Online Book Store / Digital Library Web Application** built using **PHP, MySQL, HTML, CSS, and JavaScript**.  
+A full-stack **Online Book Store / Library Web Application** built using **PHP, MySQL, HTML, CSS, and JavaScript**.  
 This system allows users to browse, search, and view books online, while administrators can manage books, authors, and categories through a secure admin panel.
 
 ---
 
 ## 🚀 Project Description
 
-This project works as a **digital book management and reading platform**.  
+This project works as a **online book management and reading platform**.  
 Users can explore books by category or author, view details, and access book PDFs.  
 Admins have full control over the content stored in the system.
 
@@ -22,7 +22,7 @@ Admins have full control over the content stored in the system.
 - **Frontend:** HTML, CSS, JavaScript  
 - **Backend:** PHP  
 - **Database:** MySQL (phpMyAdmin)  
-- **Server:** Apache (XAMPP / WAMP)
+- **Server:** Apache (XAMPP)
 
 ---
 
