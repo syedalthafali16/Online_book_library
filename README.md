@@ -1,18 +1,51 @@
 <h1 align="center">Hi 👋, I'm Syed althaf</h1>
-<h3 align="center">It's an online book library website built using PHP and MySQL. Where user can browse and purchase book..</h3>
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://linkedin.com/in/syedalthafali16" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="syedalthafali16" height="30" width="40" /></a>
-</p>
+# 📚 Online Book Store & Digital Library
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.php.net" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg" alt="php" width="40" height="40"/> </a> </p>
+A full-stack **Online Book Store / Digital Library Web Application** built using **PHP, MySQL, HTML, CSS, and JavaScript**.  
+This system allows users to browse, search, and view books online, while administrators can manage books, authors, and categories through a secure admin panel.
 
+---
 
-🌐 **Live Demo:** https://online-book-sit.netlify.app 
+## 🚀 Project Description
 
+This project works as a **digital book management and reading platform**.  
+Users can explore books by category or author, view details, and access book PDFs.  
+Admins have full control over the content stored in the system.
 
-📝 Note : Create file<br>
-upload/cover : upload cover photos (.png)<br>
-upload/file : upload PDF file (.pdf)
+> ⚠️ **Note:** The purchase feature is available but **payment integration is not implemented yet**.
+
+---
+
+## 🛠️ Technologies Used
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Backend:** PHP  
+- **Database:** MySQL (phpMyAdmin)  
+- **Server:** Apache (XAMPP / WAMP)
+
+---
+
+## ✨ Features
+
+### 👤 User Side
+- Search books by name  
+- Browse books by **author**  
+- Browse books by **category** (Science, Fiction, etc.)  
+- View book details:
+  - Book name  
+  - Description  
+  - Cover image  
+  - PDF file  
+- Purchase book option (without payment gateway)
+
+### 🔐 Admin Panel
+- Secure admin login  
+- Add new books  
+- Update book information  
+- Delete books  
+- Add and update authors  
+- Manage book categories  
+
+---
+
